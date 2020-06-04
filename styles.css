@@ -1,0 +1,33 @@
+h1{
+  display: flex;
+  justify-content: center;
+}
+
+.card{
+  box-shadow: 2px 2px 3px #555;
+
+  background-color: white;
+  padding: 15px;
+}
+
+button{
+  margin-bottom: 40px;
+}
+
+
+#main{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 25px;
+
+}
+
+.true{
+  text-decoration: line-through;
+  background-color: rgba(34,139,34,0.1)
+}
+
+.false{
+  text-decoration: none;
+  background-color: rgba(255,0,0,0.1);
+}
